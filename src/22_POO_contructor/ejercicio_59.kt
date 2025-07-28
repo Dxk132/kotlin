@@ -14,9 +14,9 @@ class triangulo1 (var lado1: Int, var lado2: Int, var lado3: Int){
 
     fun lado_Mayor(){
         when {
-            lado1 > lado2 && lado1 > lado3 -> println(lado1)
-            lado2 > lado3 -> println(lado2)
-            else -> println(lado3)
+            lado1 > lado2 && lado1 > lado3 -> println( lado1)
+            lado2 > lado3 -> println( lado2)
+            else -> println( lado3)
         }
     }
     fun esequilatero(){
@@ -32,7 +32,7 @@ fun main(){
     triangulo1.lado_Mayor()
     triangulo1.esequilatero()
     val triangulo2 = triangulo1(6,6,6)
-    triangulo1.lado_Mayor()
-    triangulo1.esequilatero()
+    triangulo2.lado_Mayor()
+    triangulo2.esequilatero()
 
 }
