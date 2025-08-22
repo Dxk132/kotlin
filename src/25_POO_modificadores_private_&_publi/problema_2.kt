@@ -38,5 +38,5 @@ fun  main(){
     sensor1.aumentarDelta(30.0)
     sensor1.disminuirDelta(14.0)
     sensor1.mostrar()
-    
+
 }
