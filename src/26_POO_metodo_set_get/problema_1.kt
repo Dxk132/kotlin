@@ -2,7 +2,7 @@ package `26_POO_metodo_set_get`
 
 import `25_POO_modificadores_private_&_publi`.sensorTemperatura
 
-class jardin constructor (largo:Int, ancho:Int){
+class jardin constructor (largo:Int, ancho:Int, opcion:Int){
     var largo: Int = largo
         set(valor) {
             field = if (valor > 0) valor else 1
@@ -72,7 +72,7 @@ class jardin constructor (largo:Int, ancho:Int){
 }
 
 fun main() {
-    val jardin1 = jardin(5, 5,)
+    val jardin1 = jardin(5, 5, 3)
     jardin1.detalles_del_jardin()
 
 }
